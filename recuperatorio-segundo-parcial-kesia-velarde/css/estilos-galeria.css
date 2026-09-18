@@ -1,0 +1,20 @@
+.layout {
+    display: flex;
+    padding: 1rem;
+}
+.columna1 {
+    flex: 2%; 
+    margin-right: 20px;
+    padding: 1.8rem;
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+} 
+.galeria article {
+    text-align: left;
+}
+.galeria img {
+    width: 250px;
+    height: 200px; 
+} 

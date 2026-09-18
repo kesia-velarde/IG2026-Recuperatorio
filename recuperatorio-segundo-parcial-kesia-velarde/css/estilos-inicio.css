@@ -1,3 +1,7 @@
 .layout {
-
+    display: flex; 
+    flex: 1; 
+} 
+.columnas {
+    padding: 1.8rem;
 }
