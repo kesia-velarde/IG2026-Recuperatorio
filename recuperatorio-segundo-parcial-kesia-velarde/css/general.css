@@ -1,0 +1,43 @@
+/*configuracion general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1rem; 
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+} 
+.contenedor-principal {
+    max-width: 75rem;
+    width: 100%;
+}
+header {
+    background-color: beige;
+    text-align: center;
+    padding: 1rem;
+} 
+nav {
+    display:flex; 
+    justify-content: center;
+} 
+nav a {
+    margin: 1rem;
+    font: 1rem sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Arvo'; sans-serif; 
+    color: brown;
+    text-align: center;
+    margin-top: 2rem;
+}
+h3 {
+    margin-top: 3rem;
+}
+footer {
+    padding: 1rem;
+    background-color: beige;
+}
