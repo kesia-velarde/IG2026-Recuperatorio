@@ -16,8 +16,8 @@ body {
     background-attachment: fixed;
 } 
 .contenedor-principal {
-    max-width: 99%;
-    width: 100%; 
+    max-width: 90rem;
+    width: 90%; 
     background-color: rgba(248, 232, 209, 0.781);
 }
 header {
@@ -26,21 +26,39 @@ header {
     padding: 1rem;
 } 
 nav {
+    font-family: 'Arvo'; serif;
     display:flex; 
     justify-content: center;
-    background-color: rgb(245, 196, 123);
+    background-color: rgb(245, 186, 225);
 } 
 nav a {
     margin: 1rem;
-    font: 1rem sans-serif;
+    font: 1rem; 
+    color: #333;
+    text-decoration: none;
 } 
+nav a:link {
+    color: black;
+} 
+nav a:visited {
+    color: brown; 
+}
+nav a:hover {
+    color: rgb(35, 63, 63);
+    background-color: #007bff;
+    border-radius: 0.25rem;
+} 
+nav a:active {
+    color: pink;
+}
 h1 {
+    font-family: 'Arvo'; serif;
     margin-top: 3rem;
     text-align: center; 
     color: rgb(77, 30, 30);
 }
 h2 {
-    font-family: 'Arvo'; 
+    font-family: 'Arvo'; serif; 
     color: brown;
     text-align: center;
     margin: 2rem;
